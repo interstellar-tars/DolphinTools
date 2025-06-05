@@ -40,7 +40,7 @@
 
   <script>
     async function loadTools() {
-      const res = await fetch("https://tools.apis.st2.dolphinlabs.ie/tools");
+      const res = await fetch("https://tools.apis.st2.dolphinlabs.ie/api/tools");
       const tools = await res.json();
 
       const container = document.getElementById("toolGrid");
